@@ -1,0 +1,33 @@
+# GitHub Pages Configuration for Tiation Parrot Security Guide AU
+
+# Site settings
+title: "Tiation Parrot Security Guide - AU Edition"
+description: "Enterprise-grade security solutions for Australian cybersecurity professionals"
+baseurl: ""
+url: "https://tiation.github.io/tiation-parrot-security-guide-au"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Australian specific settings
+timezone: Australia/Sydney
+locale: en_AU
+
+# Exclude from processing
+exclude:
+  - promotional/
+  - wiki-manual/
+  - docs/
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/
