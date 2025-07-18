@@ -1,0 +1,101 @@
+# GitHub Pages Configuration for Tiation Parrot Security Guide AU
+
+# Site settings
+title: "Tiation Parrot Security Guide - AU Edition"
+description: "Enterprise-grade security solutions for Australian cybersecurity professionals"
+baseurl: ""
+url: "https://tiation.github.io/tiation-parrot-security-guide-au"
+
+# Author information
+author:
+  name: "Tiation"
+  email: "support@tiation.com"
+  url: "https://github.com/tiation"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Australian specific settings
+timezone: Australia/Sydney
+locale: en_AU
+
+# Navigation
+nav_links:
+  - title: "Home"
+    url: "/"
+  - title: "Documentation"
+    url: "/wiki/Home"
+  - title: "GitHub"
+    url: "https://github.com/tiation/tiation-parrot-security-guide-au"
+
+# Social links
+social_links:
+  github: "tiation"
+  twitter: "tiation"
+
+# Australian community links
+community_links:
+  bsides: "https://www.bsidesau.com/"
+  auscert: "https://www.auscert.org.au/"
+  acsc: "https://www.cyber.gov.au/"
+
+# SEO
+seo:
+  type: "Organization"
+  name: "Tiation"
+  links:
+    - "https://github.com/tiation"
+
+# Exclude from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Include in processing
+include:
+  - _pages
+
+# Collections
+collections:
+  wiki:
+    output: true
+    permalink: /:collection/:name/
+
+# Default layouts
+defaults:
+  - scope:
+      path: ""
+      type: "wiki"
+    values:
+      layout: "wiki"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+
+# Sass configuration
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Compression
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  startings: [html, head, body]
