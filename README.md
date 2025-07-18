@@ -17,7 +17,7 @@
 
 ---
 <h1 align="center">
-  <img src="https://user-images.githubusercontent.com/45159366/128566111-d3bf3de5-d414-432f-a4bf-0049a27570a5.png" width="400">
+  <img src="https://user-images.githubusercontent.com/45159366/128566111-d3bf3de5-d414-432f-a4bf-0049a27570a5.svg" width="400">
   <br>
   Tiation Parrot Security Guide - AU Edition
 </h1>
